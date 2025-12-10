@@ -10,7 +10,5 @@ class MyClass:
         print(f"Value: {self.value}")
 
 
-if __name__ == "__main__":
-    myfun()
-    obj = MyClass(10)
-    obj.display()
+obj = MyClass(10)
+obj.display()
