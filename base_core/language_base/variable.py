@@ -40,3 +40,6 @@ full_bio = (
     f"{full_name}, also known as {nickname}, is {age} years old, "
     f"stands {height_cm} cm tall, and works {weekly_hours} hours a week."
 )
+department_code = b"SALES"
+company_name = "Dunder Mifflin"
+company_motto = "The people person paper company."
