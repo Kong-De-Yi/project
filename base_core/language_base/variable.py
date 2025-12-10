@@ -43,3 +43,14 @@ full_bio = (
 department_code = b"SALES"
 company_name = "Dunder Mifflin"
 company_motto = "The people person paper company."
+company_values = ["Integrity", "Customer Service", "Teamwork"]
+company_address = {
+    "street": "1725 Slough Avenue",
+    "city": "Scranton",
+    "state": "PA",
+    "zip": "18505",
+}
+company_phone = "555-5678"
+company_email = "   "
+company_website = "www.dundermifflin.com"
+company_founded = 1949
