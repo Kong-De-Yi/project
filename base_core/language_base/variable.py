@@ -18,3 +18,25 @@ bio = (
     f"{full_name} is {age} years old and works in the {department.decode()} department."
 )
 nickname = name.lower()
+is_active = True  # Indicates if the employee is currently active
+weekly_hours = 40
+monthly_salary = 5000.00
+overtime_hours = 5
+vacation_days = 15
+remote_worker = False
+emergency_contact = {"name": "Pam Beesly", "relation": "Wife", "phone": "555-1234"}
+performance_reviews = [4.0, 4.5, 5.0]
+work_location = ("Scranton", "PA")
+favorite_quote = "Bears, beets, Battlestar Galactica."
+team_members = {"Jim", "Pam", "Dwight", "Michael"}
+project_deadlines = {
+    "PRJ001": "2024-07-01",
+    "PRJ002": "2024-08-15",
+    "PRJ003": "2024-09-30",
+}
+office_number = b"101A"
+employee_number = 42
+full_bio = (
+    f"{full_name}, also known as {nickname}, is {age} years old, "
+    f"stands {height_cm} cm tall, and works {weekly_hours} hours a week."
+)
