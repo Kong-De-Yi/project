@@ -8,15 +8,3 @@ class MyClass:
 
     def display(self):
         print(f"Value: {self.value}")
-
-
-obj = MyClass(10)
-obj.display()
-
-
-class AnotherClass:
-    def __init__(self, name):
-        self.name = name
-
-    def greet(self):
-        print(f"Hello, {self.name}!")
