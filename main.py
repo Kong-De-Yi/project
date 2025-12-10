@@ -1,6 +1,6 @@
 from my_package.business_entity.product import StyleDesign
 
-obj = StyleDesign(
+style_design = StyleDesign(
     third_level_category="上衣",
     launch_year=2023,
     launch_season="春季",
