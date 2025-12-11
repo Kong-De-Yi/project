@@ -12,3 +12,12 @@ print(d1["name"])
 print(d1.get("age"))
 print(d1.get("city", "Not Found"))
 print(d1.get("email", "Not Found"))
+
+
+# 元组
+def get_coordinates():
+    return 10, 20
+
+
+x, y = get_coordinates()
+print(x + y)
